@@ -1,4 +1,4 @@
-# OpenFoodFacts Data Processing with Apache Spark - HADDANE Hassan L1C3 (EPSI)
+# OpenFoodFacts Data Processing with Apache Spark - HADDANE Hassan & SADI Leina L1C3 (EPSI)
 
 ## Overview
 
