@@ -17,12 +17,13 @@ public class Main {
         Dataset<Row> openFoodFactsData = sparkSession.read()
                 .format("csv")
                 .option("header", "true")
-                // Utilisation de la tabulation comme séparateur
+                // Use tabulation as separator
                 .option("delimiter", "\t")
-                // Utilisation de l'encodage UTF-8
+                // Use UTF-8 encoding
                 .option("encoding", "UTF-8")
-                //Url du csv sur mon ordinateur, à changer pour que ça fonctionne
+                // CSV file path on my computer, change to work
                 .load("C:/Users/lowkyz/Desktop/en.openfoodfacts.org.products.csv");
+
 
         // Initial information (root)
         openFoodFactsData.printSchema();
